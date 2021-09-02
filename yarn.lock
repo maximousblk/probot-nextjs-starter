@@ -1082,7 +1082,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/ioredis@^4.17.8":
+"@types/ioredis@^4.27.1":
   version "4.27.1"
   resolved "https://registry.yarnpkg.com/@types/ioredis/-/ioredis-4.27.1.tgz#f1c2d8a4341ed5ff9f4dd7aebfb38e275e3b3197"
   integrity sha512-+JichYPCtVapxi5Z+7V/8Uhn+4Piz+rkb03JQTQ0kW0pkV71+bmzSTkpwmIqa7FfWIszp0VbRyN8gfgWDNQMdA==
@@ -3569,7 +3569,7 @@ internal-slot@^1.0.3:
     has "^1.0.3"
     side-channel "^1.0.4"
 
-ioredis@^4.19.2:
+ioredis@^4.27.8:
   version "4.27.9"
   resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-4.27.9.tgz#c27bbade9724f0b8f84c279fb1d567be785ba33d"
   integrity sha512-hAwrx9F+OQ0uIvaJefuS3UTqW+ByOLyLIV+j0EH8ClNVxvFyH9Vmb08hCL4yje6mDYT5zMquShhypkd50RRzkg==
@@ -5453,10 +5453,10 @@ pretty-format@^27.0.0, pretty-format@^27.1.0:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-probot@^12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-12.1.0.tgz#afbd581c1f9484800d4ec36b8cc9e6082b38b591"
-  integrity sha512-NHtoLzyiW3QBOVfrAQ3wqxtj/3/gUmJhNMBrugSttOlOLBzXq/V3RfZp0DpDQy708rFUwiqxtNLNPCeHGhmCSA==
+probot@^12.1.1:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-12.1.1.tgz#ff29a3b56fdd596f121d8fc4e01c1560a6bfc677"
+  integrity sha512-ETuk/uRldzV58KwLCfXqAfdXTNDwT4NvHoWnigBFXACYO0DhORAxAd0gwK1HpRgl3ROgyPr5f7pKQCP3g3FFVw==
   dependencies:
     "@octokit/core" "^3.2.4"
     "@octokit/plugin-enterprise-compatibility" "^1.2.8"
@@ -5470,7 +5470,7 @@ probot@^12.1.0:
     "@probot/octokit-plugin-config" "^1.0.0"
     "@probot/pino" "^2.2.0"
     "@types/express" "^4.17.9"
-    "@types/ioredis" "^4.17.8"
+    "@types/ioredis" "^4.27.1"
     "@types/pino" "^6.3.4"
     "@types/pino-http" "^5.0.6"
     "@types/update-notifier" "^5.0.0"
@@ -5481,7 +5481,7 @@ probot@^12.1.0:
     eventsource "^1.0.7"
     express "^4.17.1"
     hbs "^4.1.1"
-    ioredis "^4.19.2"
+    ioredis "^4.27.8"
     js-yaml "^3.14.1"
     lru-cache "^6.0.0"
     octokit-auth-probot "^1.2.2"
