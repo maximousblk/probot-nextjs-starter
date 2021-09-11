@@ -1,15 +1,36 @@
 # probot-nextjs-starter
 
-A GitHub App built with [Probot](https://github.com/probot/probot) and [NextJS](https://nextjs.org/).
+Starter template to build GitHub Apps with with [Probot](https://github.com/probot/probot) and [NextJS](https://nextjs.org/).
 
-## Setup
+## Features
+
+- Typescript
+- NextJS
+- Serverless
+- Deploy to Vercel
+
+## Getting Started
+
+#### Use the template
 
 ```sh
-# Install dependencies
-yarn install
+gh repo create <your-app-name> --template maximousblk/probot-nextjs-starter # use the generate button
+cd <your-app-name>
+```
 
-# Run the bot
-yarn start
+#### Install dependencies
+```sh
+yarn install
+```
+
+#### Build the app
+```sh
+yarn bot:build
+```
+
+#### Start the app
+```sh
+yarn bot:build
 ```
 
 ## Contributing
