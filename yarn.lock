@@ -937,6 +937,11 @@
     "@octokit/types" "^6.12.2"
     btoa-lite "^1.0.0"
 
+"@octokit/openapi-types@^13.6.0":
+  version "13.6.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-13.6.0.tgz#381884008e23fd82fd444553f6b4dcd24a5c4a4d"
+  integrity sha512-bxftLwoZ2J6zsU1rzRvk0O32j7lVB0NWWn+P5CDHn9zPzytasR3hdAeXlTngRDkqv1LyEeuy5psVnDkmOSwrcQ==
+
 "@octokit/openapi-types@^9.5.0":
   version "9.7.0"
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-9.7.0.tgz#9897cdefd629cd88af67b8dbe2e5fb19c63426b2"
@@ -1008,6 +1013,13 @@
   integrity sha512-bNvyQKfngvAd/08COlYIN54nRgxskmejgywodizQNyiKoXmWRAjKup2/LYwm+T9V0gsKH6tuld1gM0PzmOiB4Q==
   dependencies:
     "@octokit/openapi-types" "^9.5.0"
+
+"@octokit/types@^7.1.1":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-7.2.0.tgz#7ee0fc27f9f463d7ccf12ca5956988d498b3c6c4"
+  integrity sha512-pYQ/a1U6mHptwhGyp6SvsiM4bWP2s3V95olUeTxas85D/2kN78yN5C8cGN+P4LwJSWUqIEyvq0Qn2WUn6NQRjw==
+  dependencies:
+    "@octokit/openapi-types" "^13.6.0"
 
 "@octokit/webhooks-methods@^2.0.0":
   version "2.0.0"
@@ -4772,10 +4784,10 @@ pretty-format@^27.0.0, pretty-format@^27.5.1:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-probot@^12.2.5:
-  version "12.2.5"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-12.2.5.tgz#acc3260daa5ba279f7f0e822fcb0ab695f7d0e25"
-  integrity sha512-+cK8tsnPsMF8WqI4CibTeqw5T6wpsQIFXJzGex/IrxqA0grULrd8BC56R/0ZiJYBml7E94gC/nV5IFUd9Zsn6Q==
+probot@^12.2.7:
+  version "12.2.7"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-12.2.7.tgz#f66832c757b641a33257f1bf972c6d2337bbada9"
+  integrity sha512-T39QMxlukg3YHs7p39HDg0+2EOIozzod64tBYSqz7biZhyhOB/vAytH/5wrF0WzqRjpd3kOWRTTKF0tvobRhjw==
   dependencies:
     "@octokit/core" "^3.2.4"
     "@octokit/plugin-enterprise-compatibility" "^1.2.8"
@@ -4783,7 +4795,7 @@ probot@^12.2.5:
     "@octokit/plugin-rest-endpoint-methods" "^5.0.1"
     "@octokit/plugin-retry" "^3.0.6"
     "@octokit/plugin-throttling" "^3.3.4"
-    "@octokit/types" "^6.1.1"
+    "@octokit/types" "^7.1.1"
     "@octokit/webhooks" "^9.8.4"
     "@probot/get-private-key" "^1.1.0"
     "@probot/octokit-plugin-config" "^1.0.0"
