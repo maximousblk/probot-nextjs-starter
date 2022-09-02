@@ -26,7 +26,7 @@
     "@types/node": "^18.7.14",
     "@types/react": "^18.0.15",
     "eslint": "8.20.0",
-    "eslint-config-next": "12.2.3",
+    "eslint-config-next": "12.2.5",
     "jest": "^27.5.1",
     "nock": "^13.2.9",
     "smee-client": "^1.2.3",
