@@ -4827,10 +4827,10 @@ pretty-format@^27.0.0, pretty-format@^27.5.1:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-probot@^12.2.7:
-  version "12.2.7"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-12.2.7.tgz#f66832c757b641a33257f1bf972c6d2337bbada9"
-  integrity sha512-T39QMxlukg3YHs7p39HDg0+2EOIozzod64tBYSqz7biZhyhOB/vAytH/5wrF0WzqRjpd3kOWRTTKF0tvobRhjw==
+probot@^12.2.8:
+  version "12.2.8"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-12.2.8.tgz#ac8bae43e557dfb89b5b3e5cc8579801cb509465"
+  integrity sha512-O2WqJmgXUijAOTHaIBEW3jC5OU9Rq+eUg/AEBI5zkAUZaxzJMQvXvGvhVsdFE3Zt9Z3ceGN8Z2cgN+NTItSrCQ==
   dependencies:
     "@octokit/core" "^3.2.4"
     "@octokit/plugin-enterprise-compatibility" "^1.2.8"
