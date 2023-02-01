@@ -942,10 +942,10 @@
     "@octokit/types" "^6.12.2"
     btoa-lite "^1.0.0"
 
-"@octokit/openapi-types@^13.6.0":
-  version "13.6.0"
-  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-13.6.0.tgz#381884008e23fd82fd444553f6b4dcd24a5c4a4d"
-  integrity sha512-bxftLwoZ2J6zsU1rzRvk0O32j7lVB0NWWn+P5CDHn9zPzytasR3hdAeXlTngRDkqv1LyEeuy5psVnDkmOSwrcQ==
+"@octokit/openapi-types@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-14.0.0.tgz#949c5019028c93f189abbc2fb42f333290f7134a"
+  integrity sha512-HNWisMYlR8VCnNurDU6os2ikx0s0VyEjDYHNS/h4cgb8DeOxQ0n72HyinUtdDVxJhFy3FWLGl0DJhfEWk3P5Iw==
 
 "@octokit/openapi-types@^9.5.0":
   version "9.7.0"
@@ -1019,12 +1019,12 @@
   dependencies:
     "@octokit/openapi-types" "^9.5.0"
 
-"@octokit/types@^7.1.1":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-7.2.0.tgz#7ee0fc27f9f463d7ccf12ca5956988d498b3c6c4"
-  integrity sha512-pYQ/a1U6mHptwhGyp6SvsiM4bWP2s3V95olUeTxas85D/2kN78yN5C8cGN+P4LwJSWUqIEyvq0Qn2WUn6NQRjw==
+"@octokit/types@^8.0.0":
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-8.2.1.tgz#a6de091ae68b5541f8d4fcf9a12e32836d4648aa"
+  integrity sha512-8oWMUji8be66q2B9PmEIUyQm00VPDPun07umUWSaCwxmeaquFBro4Hcc3ruVoDo3zkQyZBlRvhIMEYS3pBhanw==
   dependencies:
-    "@octokit/openapi-types" "^13.6.0"
+    "@octokit/openapi-types" "^14.0.0"
 
 "@octokit/webhooks-methods@^2.0.0":
   version "2.0.0"
@@ -4933,10 +4933,10 @@ pretty-format@^27.0.0, pretty-format@^27.5.1:
     ansi-styles "^5.0.0"
     react-is "^17.0.1"
 
-probot@^12.2.8:
-  version "12.2.8"
-  resolved "https://registry.yarnpkg.com/probot/-/probot-12.2.8.tgz#ac8bae43e557dfb89b5b3e5cc8579801cb509465"
-  integrity sha512-O2WqJmgXUijAOTHaIBEW3jC5OU9Rq+eUg/AEBI5zkAUZaxzJMQvXvGvhVsdFE3Zt9Z3ceGN8Z2cgN+NTItSrCQ==
+probot@^12.3.0:
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/probot/-/probot-12.3.0.tgz#0e379b522d4e30e78056abf8c8f98bafdf54d9c3"
+  integrity sha512-I7qpD6myIt5eEqAOv14mrbdh4HdLG1MQgCHGQJpIj6rdDeQaacQDL2THlMSqIU2VBcdIRpLqNv7D0z2NG0la3w==
   dependencies:
     "@octokit/core" "^3.2.4"
     "@octokit/plugin-enterprise-compatibility" "^1.2.8"
@@ -4944,7 +4944,7 @@ probot@^12.2.8:
     "@octokit/plugin-rest-endpoint-methods" "^5.0.1"
     "@octokit/plugin-retry" "^3.0.6"
     "@octokit/plugin-throttling" "^3.3.4"
-    "@octokit/types" "^7.1.1"
+    "@octokit/types" "^8.0.0"
     "@octokit/webhooks" "^9.8.4"
     "@probot/get-private-key" "^1.1.0"
     "@probot/octokit-plugin-config" "^1.0.0"
