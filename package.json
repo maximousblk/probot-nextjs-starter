@@ -13,7 +13,7 @@
     "lint": "next lint",
     "bot:build": "tsc ./src/bot/index.ts --noEmit false --esModuleInterop --outDir ./build",
     "bot:start": "probot run ./build/index.js",
-    "test": "jest"
+    "test": "vitest run --coverage"
   },
   "dependencies": {
     "next": "^13.4.19",
@@ -22,16 +22,18 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.4",
     "@types/node": "^20.6.0",
     "@types/react": "^18.2.21",
+    "@vitejs/plugin-react": "^4.0.4",
+    "@vitest/coverage-v8": "^0.34.4",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
-    "jest": "^29.7.0",
+    "jsdom": "^22.1.0",
     "nock": "^13.3.3",
     "smee-client": "^1.2.3",
-    "ts-jest": "^29.1.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vite-tsconfig-paths": "^4.2.1",
+    "vitest": "^0.34.4"
   },
   "engines": {
     "node": ">= 14"

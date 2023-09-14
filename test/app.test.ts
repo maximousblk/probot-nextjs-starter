@@ -1,4 +1,5 @@
 import nock from "nock";
+import { afterEach, beforeEach, describe, test } from "vitest";
 
 // Requiring our app implementation
 import app from "@/bot";
@@ -33,7 +34,7 @@ describe("My Probot app", () => {
     probot.load(app);
   });
 
-  test("creates a comment when an issue is opened", async (done) => {
+  test("creates a comment when an issue is opened", async ({ expect }) => {
     const mock = nock("https://api.github.com")
       // Test that we correctly return a test token
       .post("/app/installations/2/access_tokens")
@@ -46,7 +47,7 @@ describe("My Probot app", () => {
 
       // Test that a comment is posted
       .post("/repos/hiimbex/testing-things/issues/1/comments", (body: any) => {
-        done(expect(body).toMatchObject(issueCreatedBody));
+        expect(body).toMatchObject(issueCreatedBody);
         return true;
       })
       .reply(200);
@@ -62,12 +63,6 @@ describe("My Probot app", () => {
     nock.enableNetConnect();
   });
 });
-
-// For more information about testing with Jest see:
-// https://facebook.github.io/jest/
-
-// For more information about using TypeScript in your tests, Jest recommends:
-// https://github.com/kulshekhar/ts-jest
 
 // For more information about testing with Nock see:
 // https://github.com/nock/nock
