@@ -30,7 +30,7 @@ yarn bot:build
 
 #### Start the app
 ```sh
-yarn bot:build
+yarn bot:start
 ```
 
 ## Contributing
